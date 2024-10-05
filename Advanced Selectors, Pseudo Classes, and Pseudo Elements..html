@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border:2px solid blueviolet
+        }
+        input[type="password"]{
+            border: 2px dashed red
+        }
+        ul>li{
+            color:goldenrod
+        }
+        h1+p{
+            color:blue
+        }
+        p{
+            color:brown
+        }
+        a:hover{
+            color: darkgreen;
+        }
+        li:nth-child(2){
+            color:deeppink
+        }
+        div:not(#a){
+            border:2px solid black
+        }
+        #c::before{
+            content:"Ghana ";
+            color: red
+        }
+        #d::after{
+            content: " password";
+            color: blue
+        }
+        #e::first-letter{
+            font-size: 200%;
+            color: indigo
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="name">
+    <input type="password" placeholder="password">
+    <ul>
+        <li>home</li>
+        <li>school</li>
+    </ul>
+    <h1>I am happy.</h1>
+    <p>I am happy</p>
+    <p>I am happy</p>
+    <a href="#">I am happy.</a>
+    <ul>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+    </ul>
+    <div id="a">Ghana</div>
+    <div id="b">Ghana</div>
+    <p id="c">Aseye</p>
+    <p id="d"> Home</p>
+    <p id="e">time</p>
+</body>
+</html>
